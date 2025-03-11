@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Button, Form, Alert, Container, Row, Col } from "react-bootstrap";
 
 const Login = ({ onLogin }) => {
-  const [email, setEmail] = useState("student@gmail.com");
+  const [email, setEmail] = useState("student@example.com");
   const [password, setPassword] = useState("password");
   const [error, setError] = useState(""); // State to handle login errors
 
